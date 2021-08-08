@@ -109,7 +109,7 @@ body .t63ysoy8 .sjgh65i0 {
     border-color: #393a3b;
 }
 /* Navigation Area - Chat Item (Status Icon) */
-[role=navigation]:not(.__fb-dark-mode [role=navigation]) [role="grid"] [role="row"] .ozuftl9m svg.crt8y2ji,
+[role=navigation]:not(.__fb-dark-mode [role=navigation]) [role="grid"] [role="row"] .ozuftl9m svg.crt8y2ji:not(.__nn-fbm [role=navigation] [aria-current=page] .ozuftl9m svg.crt8y2ji),
 [role=main]:not(.__fb-dark-mode [role=main]) .t6p9ggj4 .pfnyh3mw.pybr56ya .qx9c56kf .bp9cbjyn .lupvgy83 svg {
     fill: #005FFF4A;
     color: #fff;
