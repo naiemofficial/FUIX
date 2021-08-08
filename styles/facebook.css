@@ -157,8 +157,8 @@ body .t63ysoy8 .sjgh65i0 {
 }
 /* Navigation Area - Selected State (icon color filter) */
 [role="navigation"]:not(.__nn-msg [role="navigation"]) [aria-current="page"].i224opu6 svg,
-.__nn-fbm [role="navigation"] [aria-current="page"].i224opu6 svg {
-    fill: #ffffffAD;
+.__nn-fbm [role="navigation"] [aria-current="page"].i224opu6 svg.crt8y2ji {
+    fill: #ffffff;
 }
 [role="navigation"]:not(.__nn-msg [role="navigation"]) [aria-current="page"].i224opu6 i,
 [role="navigation"]:not(.__nn-msg [role="navigation"]) [aria-current="page"].i224opu6 img,
