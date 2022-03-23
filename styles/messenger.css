@@ -2,9 +2,6 @@
 	--positive: #42D866;
 	--nn-indicator: #005FFF4A;
 }
-._9dls {
-    overflow: hidden!important;
-}
 .__fb-dark-mode  .__nn-msg {
     --header-height: 0px;
 }
