@@ -7,16 +7,16 @@ A browser extension for updating social media UI (eg: Facebook, Messenger, Insta
 	<thead>
 		<tr>
 			<th align="center" width="190px">&nbsp;</th>
-			<th align="center" width="150px">Chrome</th>
-			<th align="center" width="150px">Firefox</th>
-			<th align="center" width="150px">Safari</th>
-			<th align="center" width="200px">Microsoft Edge</th>
-			<th align="center" width="150px">Opera</th>
+			<th align="center" width="150px"><sub><sup>Chrome</sup></sub></th>
+			<th align="center" width="150px"><sub><sup>Firefox</sup></sub></th>
+			<th align="center" width="150px"><sub><sup>Safari</sup></sub></th>
+			<th align="center" width="200px"><sub><sup>Microsoft Edge</sup></sub></th>
+			<th align="center" width="150px"><sub><sup>Opera</sup></sub></th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<th scope="row" align="center">Browser</td>
+			<th scope="row" align="center"><sub><sup>Browser</sup></sub></td>
 			<td align="center"><img height="50px" width="50px" src="https://user-images.githubusercontent.com/34242279/128738572-b5ddd5ec-ec67-4a04-b634-2a0662436f84.png" alt="Chrome"/></td>
 			<td align="center"><img height="50px" width="50px" src="https://user-images.githubusercontent.com/34242279/128738583-1c83ba81-f4f6-49cc-a62e-4d616b1aa758.png" alt="Firefox"/></td>
 			<td align="center"><img height="50px" width="50px" src="https://user-images.githubusercontent.com/34242279/128738581-6256262d-da45-4837-a931-ca7d13b5e9d7.png" alt="Safari"/></td>
@@ -24,20 +24,20 @@ A browser extension for updating social media UI (eg: Facebook, Messenger, Insta
 			<td align="center"><img height="50px" width="50px" src="https://user-images.githubusercontent.com/34242279/128738587-612150d0-c20c-4130-83f9-1601ea9ce65e.png" alt="Opera"/></td>
 		</tr>
 		<tr>
-			<th scope="row" align="center">Required Version</td>
-			<td align="center">v92.0 <sup><small>or <img src="https://user-images.githubusercontent.com/34242279/128741766-64f87a28-fc8a-430b-9fa9-7468e85e0697.png" alt="higher"></small></sup> </td>
-			<td align="center">v92.0 <sup><small>or <img src="https://user-images.githubusercontent.com/34242279/128741766-64f87a28-fc8a-430b-9fa9-7468e85e0697.png" alt="higher"></small></sup></td>
-			<td align="center">N/A</td>
-			<td align="center">v79 <sup><small>or <img src="https://user-images.githubusercontent.com/34242279/128741766-64f87a28-fc8a-430b-9fa9-7468e85e0697.png" alt="higher"></small></sup></td>
-			<td align="center">v92.0 <sup><small>or <img src="https://user-images.githubusercontent.com/34242279/128741766-64f87a28-fc8a-430b-9fa9-7468e85e0697.png" alt="higher"></small></sup></td>
+			<th scope="row" align="center"><sub><sup>Required Version</sup></sub></td>
+			<td align="center"><sub><sup>v92.0</sup></sub> <sup><small>or <img src="https://user-images.githubusercontent.com/34242279/128741766-64f87a28-fc8a-430b-9fa9-7468e85e0697.png" alt="higher"></small></sup> </td>
+			<td align="center"><sub><sup>v92.0</sup></sub> <sup><small>or <img src="https://user-images.githubusercontent.com/34242279/128741766-64f87a28-fc8a-430b-9fa9-7468e85e0697.png" alt="higher"></small></sup></td>
+			<td align="center"><sub><sup>N/A</sup></sub></td>
+			<td align="center"><sub><sup>v79</sup></sub> <sup><small>or <img src="https://user-images.githubusercontent.com/34242279/128741766-64f87a28-fc8a-430b-9fa9-7468e85e0697.png" alt="higher"></small></sup></td>
+			<td align="center"><sub><sup>v92.0</sup></sub> <sup><small>or <img src="https://user-images.githubusercontent.com/34242279/128741766-64f87a28-fc8a-430b-9fa9-7468e85e0697.png" alt="higher"></small></sup></td>
 		</tr>
 		<tr>
-			<th scope="row" align="center">Install</td>
-			<td align="center"><a target="_blank" href="#">Add to Chrome</a></td>
-			<td align="center"><a target="_blank" href="#">Add to Firefox</a></td>
-			<td align="center">N/A</td>
-			<td align="center"><a target="_blank" href="#">Add to Microsoft Edge</a></td>
-			<td align="center"><a target="_blank" href="#">Add to Opera</a></td>
+			<th scope="row" align="center"><sub><sup>Install</sup></sub></td>
+			<td align="center"><a target="_blank" href="https://chrome.google.com/webstore/detail/fuix/kokkleinbgjmalnjflomcdjjjceafooo"><sub><sup>Add to Chrome</sup></sub></a></td>
+			<td align="center"><a target="_blank" href="https://addons.mozilla.org/firefox/addon/fuix"><sub><sup>Add to Firefox</sup></sub></a></td>
+			<td align="center"><a target="_blank" href="#"><sub><sup>N/A</sup></sub></a></td>
+			<td align="center"><a target="_blank" href="https://microsoftedge.microsoft.com/addons/detail/bdhpdhjjecmpiiojcibkojchmegkgeco"><sub><sup>Add to Microsoft Edge</sup></sub></a></td>
+			<td align="center"><a target="_blank" href="#"><sub><sup>N/A</sup></sub></a></td>
 		</tr>
 	</tbody>
 </table>
@@ -120,11 +120,23 @@ Then click on the <img src="https://user-images.githubusercontent.com/34242279/1
 					</li>
 					<li>
 						<b>Rate us:</b> <br>
-						If you wish to leave us rating click on the star icon <img src="https://user-images.githubusercontent.com/34242279/128790090-6d455983-15ab-4634-ad4e-47a99c55523c.png" alt="rating"> from the FUIX addon footer or click below your preferred browser. <br><br>
-						<a target="_blank" href="#"><img height="28px" src="https://user-images.githubusercontent.com/34242279/128738572-b5ddd5ec-ec67-4a04-b634-2a0662436f84.png" alt="Chrome" class="d"/></a>
-						<a target="_blank" href="#"><img height="28px" src="https://user-images.githubusercontent.com/34242279/128738583-1c83ba81-f4f6-49cc-a62e-4d616b1aa758.png" alt="Firefox"/></a>
+						If you wish to leave us rating click on the star icon <a href="https://chrome.google.com/webstore/detail/fuix/kokkleinbgjmalnjflomcdjjjceafooo"><img src="https://user-images.githubusercontent.com/34242279/128790090-6d455983-15ab-4634-ad4e-47a99c55523c.png" alt="rating"></a> from the FUIX addon footer or click below your preferred browser. <br><br>
+						<a target="_blank" href="https://chrome.google.com/webstore/detail/fuix/kokkleinbgjmalnjflomcdjjjceafooo"><img height="28px" src="https://user-images.githubusercontent.com/34242279/128738572-b5ddd5ec-ec67-4a04-b634-2a0662436f84.png" alt="Chrome" class="d"/></a>
+						&nbsp;
+						&nbsp;
+						&nbsp;
+						<a target="_blank" href="https://addons.mozilla.org/firefox/addon/fuix"><img height="28px" src="https://user-images.githubusercontent.com/34242279/128738583-1c83ba81-f4f6-49cc-a62e-4d616b1aa758.png" alt="Firefox"/></a>
+						&nbsp;
+						&nbsp;
+						&nbsp;
 						<a target="_blank" href="#"><img height="28px" src="https://user-images.githubusercontent.com/34242279/128738581-6256262d-da45-4837-a931-ca7d13b5e9d7.png" alt="Safari"/></a>
-						<a target="_blank" href="#"><img height="28px" src="https://user-images.githubusercontent.com/34242279/128738592-05d994e2-08ca-4190-a091-5c4d6e69e572.png" alt="MS Edge"/></a>
+						&nbsp;
+						&nbsp;
+						&nbsp;
+						<a target="_blank" href="https://microsoftedge.microsoft.com/addons/detail/bdhpdhjjecmpiiojcibkojchmegkgeco"><img height="28px" src="https://user-images.githubusercontent.com/34242279/128738592-05d994e2-08ca-4190-a091-5c4d6e69e572.png" alt="MS Edge"/></a>
+						&nbsp;
+						&nbsp;
+						&nbsp;
 						<a target="_blank" href="#"><img height="28px" src="https://user-images.githubusercontent.com/34242279/128738587-612150d0-c20c-4130-83f9-1601ea9ce65e.png" alt="Opera"/></a>	
 					</li>
 				</ul>
@@ -152,7 +164,7 @@ Then click on the <img src="https://user-images.githubusercontent.com/34242279/1
 					<li>
 						<img src="https://user-images.githubusercontent.com/34242279/128777860-e6f76d65-61ba-408c-b176-a6dcf2cefea4.png" alt="Dark Messenger" height="16px" width="16px"/>
 						<b>Dark Messenger: </b> Turn it on <img src="https://user-images.githubusercontent.com/34242279/128775855-ac781602-e0e4-4488-86d4-d89462cd4731.png" alt="Toggle on" height="16px"/> If you want to switch Messenger Light to Dark mode also apply UI like Demo 4. This option will work only at <a target="_blank" href="https://messenger.com/">messenger.com</a> or any URL that prefix started with <a target="_blank" href="https://messenger.com/">messenger.com</a> <br>
-						There's also another way to use Messenger. If you want to use Dark Messenger also at <a target="_blank" href="https://facebook.com/messages/">facebook.com/messages</a> then you must enable dark mode from the facebook topbar <img src="https://user-images.githubusercontent.com/34242279/128786357-98c9c257-f948-4c0f-84f1-f182ac1b3c58.png" alt="Display & Accessibility Icon" height="15px"> <u>Display & Accessibility</u> section.
+						There's also another way to use Messenger. If you want to use Dark Messenger also at <a target="_blank" href="https://facebook.com/messages/">facebook.com/messages</a> then you must enable dark mode from the facebook topbar <img src="https://user-images.githubusercontent.com/34242279/128786357-98c9c257-f948-4c0f-84f1-f182ac1b3c58.png" alt="Display & Accessibility Icon" height="15px"> <u>Display & Accessibility</u> section. <br>
 						<img src="https://user-images.githubusercontent.com/34242279/128786054-d07bc6fb-4429-47de-b045-5d52d2bf6fb1.png" alt="" width="220px">
 						<br><br>
 					</li>
@@ -162,6 +174,8 @@ Then click on the <img src="https://user-images.githubusercontent.com/34242279/1
 						<img src="https://user-images.githubusercontent.com/34242279/128787398-83ab7529-3349-4600-845b-95e78eb0b913.png" alt="Hide Topbar" width="500px">
 						<br>
 						This option will work only at <a target="_blank" href="https://facebook.com/messages/">facebook.com/messages</a> or any URL that prefix started with <a target="_blank" href="https://facebook.com/messages/">facebook.com/messages</a>
+						<br>
+						<sub><sup>[Note: If you enable this option, make sure you're using messenger in a new tab. Otherwise, if you move directly from <a target="_blank" href="https://facebook.com/messages/">facebook.com/messages</a> to facebook feed or any page you may not see the topbar.]</sup></sub>
 						<br><br>
 					</li>
 					<li>
@@ -191,7 +205,8 @@ Then click on the <img src="https://user-images.githubusercontent.com/34242279/1
 2. After making changes on FUIX it may take 1-3 seconds to load the styles on your Facebook, Messenger, and Instagram feed. The styles loading delay also depends on your internet speed.
 3. If your Facebook, Messenger, or Instagram feed is opened in your browser and the internet connection isn't active. At that time if you turned off any option that style will be gone if activate that again the styles won't load until the internet connection is active or reload the page.
 4. You don't need to worry if you don't see any changes. There will appear a popup alert what happened.
-5. If something happens wrong with the FUIX addon or you notice any issue just click on the "<a target="_blank" href="https://github.com/naiemofficial/FUIX/issues">Report Issue</a>" button from the FUIX addon footer.
+5. The webpages style depends on the organized DOM by Facebook / Messenger / Instagram. The DOM can be updated anytime without any notice and you may see design conflicts on that moment or after that. In that case, you can turn off the options for 48-72 hours and we will update the design withon this time. <br> <sub><sup>If you don't see any changes in this time, then create an issue in this repo (follow the next step) or conact me.</sup></sub>
+6. If something happens wrong with the FUIX addon or you notice any issue just click on the "<a target="_blank" href="https://github.com/naiemofficial/FUIX/issues">Report Issue</a>" button from the FUIX addon footer.
 
 <br>
 
