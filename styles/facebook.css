@@ -137,7 +137,6 @@
 	border-right-width: 1px;
 	border-style: solid;
 	border-color: var(--nn-border);
-	;
 }
 
 .__fb-dark-mode [role="navigation"]:not([role="banner"] [role="navigation"]),
@@ -171,7 +170,7 @@
 	background-color: #f6f6f6;
 }
 
-[role="navigation"] .akh3l2rg {
+[role="navigation"] [data-thumb].akh3l2rg {
 	width: 6px;
 	padding: 0;
 	padding-right: 1px;
