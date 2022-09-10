@@ -1,21 +1,26 @@
-/*  Root */
-
 :root {
 	--positive: #42D866;
 	--nn-border: #38589847;
+	--bg-main: #4b61ca;
+	--header-height: 48px;
+	--scroll-track: #c8d1e2;
+}
+
+.__fb-dark-mode {
+	--scroll-track: var(--comment-background);
 }
 
 :root:not(.__fb-dark-mode) div[role="banner"] {
-	--nav-bar-background: #3B5998!important;
+	--nav-bar-background: #3B5998 !important;
 }
 
 .__fb-dark-mode div[role="banner"] {
-	--nav-bar-background: #0D0D0D!important;
+	--nav-bar-background: #0D0D0D !important;
 }
 
 :root [role="navigation"]:not(.__nn-msg [role="navigation"]),
 :root .__nn-fbm [role="navigation"] {
-	--hosted-view-selected-state: #4b61ca!important;
+	--hosted-view-selected-state: var(--bg-main) !important;
 }
 
 :root [role=navigation] [aria-current="page"] {
@@ -32,233 +37,155 @@
 }
 
 
-/* Common Start */
-
-body .t63ysoy8 .sjgh65i0 {
-	/*  Messenger */
-	margin-bottom: 0;
+/*  Top Bar - Left Logo */
+[role="banner"] [aria-label="Facebook"][href="/"][role="link"]>svg {
+	height: 34px;
+	width: 34px;
 }
 
-.__fb-dark-mode *::-webkit-scrollbar {
-	height: 15px;
-	width: 15px
+/*  Top Bar - Left - Search Box */
+[role="banner"] .c8dj4xom {
+	min-height: 34px;
 }
 
-.__fb-dark-mode *::-webkit-scrollbar-thumb {
-	background-color: #777;
-	border: 2px solid #444;
+[role="banner"] [type="search"] {
+	height: 34px;
+	line-height: 34px;
+	padding-top: 0;
+	padding-bottom: 0;
 }
-
-.__fb-dark-mode *::-webkit-scrollbar-track {
-	background-color: #444;
-}
-
-
-/* Common End */
-
 
 /*Top Bar - Center  */
-
 [role="navigation"]>ul li a[role="link"] svg {
-	height: 22px;
+	height: 20px;
 }
 
 [role="navigation"]>ul li {
-	max-width: 80px!important;
+	max-width: 60px !important;
 	--primary-button-background: #fff;
 	--secondary-icon: #fff
 }
 
-
-/*Top Bar - Right  */
-
-[role="banner"] [role="navigation"]:not([aria-hidden="false"] [role="navigation"])>div:last-child a[role="link"] {
-	background-color: #fff4;
-	color: #fff;
+[role="navigation"]>ul li+li {
+	margin-left: 20px;
 }
 
-[role="banner"] [role="navigation"]:not([aria-hidden="false"] [role="navigation"])>div:last-child a[role="link"] * {
-	color: inherit;
+/*  Top Bar - Right */
+[role="navigation"][aria-label="Account Controls and Settings"] [role="button"]:not([tabindex="-1"]),
+[role="navigation"][aria-label="Account Controls and Settings"] [role="link"] {
+	width: 28px;
+	height: 28px;
 }
 
-
-/* Top Bar Right - (icon) */
-
-[role="banner"] [role="navigation"][aria-label] .tdjehn4e,
-[role="banner"] [role="navigation"][aria-label] .oo1teu6h {
-	height: 30px;
-	width: 30px;
+/*  Top Bar - Right - Icon Size */
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label="Menu"] svg {
+	transform: scale(0.7);
 }
 
-[role="banner"] [role="navigation"] .tdjehn4e>i,
-[role="banner"] [role="navigation"] .tdjehn4e>svg {
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label="Menu"] svg.d1w2l3lo {
+	transform: scale(0.85);
+}
+
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Messenger"] svg,
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Notifications"] svg {
 	transform: scale(0.8);
 }
 
-.__fb-dark-mode .rozst971 {
-	background-image: none;
-	border-top: 1px solid var(--nn-border);
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Messenger"] svg.d1w2l3lo,
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Notifications"] svg.d1w2l3lo {
+	transform: scale(0.95);
+}
+
+/*  Top Bar - Right - Profile Picture */
+[role="navigation"][aria-label="Account Controls and Settings"]>span:first-child [role="button"],
+[role="navigation"][aria-label="Account Controls and Settings"] svg[aria-label="Your profile"],
+[role="navigation"][aria-label="Account Controls and Settings"] svg[aria-label="Your profile"] image {
+	width: 32px !important;
+	height: 32px !important;
+}
+
+[role="navigation"][aria-label="Account Controls and Settings"] svg[aria-label="Your profile"] mask circle {
+	cx: 16;
+	cy: 16;
+	r: 16;
+}
+
+/*  Top Bar - Right - NNotification Counter */
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Notifications"][tabindex="-1"],
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Messenger"][tabindex="-1"] {
+	left: 16px;
+}
+
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Notifications"][tabindex="-1"]>span,
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Messenger"][tabindex="-1"] div>span {
+	height: 16px;
+	min-width: 16px;
+}
+
+/* Top Bar - Right - Profile Picture */
+[role="navigation"][aria-label="Account Controls and Settings"]>span:first-child span[data-visualcompletion="ignore"] {
+	margin-right: -5px;
+	margin-top: -10px;
+	transform: scale(0.9);
 }
 
 
-/* ===================================================== */
-
-
-/*Navigation Area (Define -> Hosted View) */
-
-[role="navigation"]:not(.__nn-msg [role="navigation"]) [aria-current="page"].i224opu6,
-.__nn-fbm [role="navigation"] [aria-current="page"].i224opu6 {
-	background-color: var(--hosted-view-selected-state);
+/*  Sidebar */
+[role="navigation"]:not([role="banner"] [role="navigation"]),
+[role="complementary"] {
+	background-color: #fff;
+	border: 0;
+	border-right-width: 1px;
+	border-style: solid;
+	border-color: var(--nn-border);
+	;
 }
 
+.__fb-dark-mode [role="navigation"]:not([role="banner"] [role="navigation"]),
+.__fb-dark-mode [role="complementary"] {
+	background-color: var(--surface-background);
+}
 
-/*Navigation Area - Hosted & Selcted State*/
+[role="complementary"] {
+	border-right-width: 0;
+	border-left-width: 1px;
+}
 
-[role="navigation"]:not(.__nn-msg [role="navigation"]) [aria-current="page"].i224opu6 *,
-.__nn-fbm [role="navigation"] [aria-current="page"].i224opu6 * {
+/*  Left Sidebar - Profile Link */
+[role="navigation"] [data-visualcompletion="ignore-dynamic"]>div>ul:first-child a[role="link"][href*="facebook.com/"] {
+	background-color: var(--bg-main);
+	margin-bottom: 3px;
+}
+
+[role="navigation"] [data-visualcompletion="ignore-dynamic"]>div>ul:first-child a[role="link"][href*="facebook.com/"] svg[role="none"] {
+	border: 3px solid #ffffff80;
+	border-radius: 50%;
+}
+
+[role="navigation"] [data-visualcompletion="ignore-dynamic"]>div>ul:first-child a[role="link"][href*="facebook.com/"] * {
 	color: #fff;
-}
-
-.__nn-fbmain [role="navigation"] [aria-current="page"] {
-	--accent: #37ff67;
-}
-.__nn-fbmain [role="navigation"] [role="gridcell"] [aria-current="page"],
-.__nn-fbm [role="navigation"] [role="gridcell"] [aria-current="page"] {
-	--accent: #fff;
-}
-
-[role="navigation"]:not(.__nn-msg [role="navigation"]) [aria-current="page"]:not([role="gridcell"] [aria-current="page"]).i224opu6 span.d2edcug0,
-/*.__nn-fbm [aria-current="page"] span.d2edcug0.oo9gr5id>span.g0qnabr5*/ {
 	font-weight: bold;
 }
 
+/*  Navigation Scroller */
+.tccefgj0 {
+	background-color: #f6f6f6;
+}
 
-/*Navigation Area - Top Bar Bottom Border*/
+[role="navigation"] .akh3l2rg {
+	width: 6px;
+	padding: 0;
+	padding-right: 1px;
+}
 
-[role="navigation"]:not(.__nn-msg [role="navigation"]) .s1tcr66n.wkznzc2l.dhix69tm {
-	border: 0;
+.s6fba4dy {
+	background-color: var(--scroll-track);
 }
 
 
-/* Navigation Area */
-
-[role="navigation"].stjgntxs:not(.__nn-msg [role="navigation"]),
-[role="complementary"].stjgntxs:not(.__nn-msg [role="complementary"]),
-.__nn-fbm [role="navigation"].stjgntxs:not(.__fb-dark-mode [role="navigation"].stjgntxs) {
-	background-color: var(--nn-navcom);
-	border-right: 1px solid var(--nn-border);
-}
-
-[role="complementary"].stjgntxs:not(.__nn-msg [role="complementary"]) {
-	border-left: 1px solid var(--nn-border);
-	border-right: 0;
-}
-
-
-/* ===================================================== */
-
-
-/* Navigation Area - (State Box)*/
-
-[role="navigation"]:not(.__nn-msg [role="navigation"]) .wkznzc2l.rq0escxv {
-	margin: 0;
-	padding: 11px 16px 11px;
-	min-height: 64px;
-	color: #fff;
-}
-
-[role="navigation"] [data-visualcompletion=ignore-dynamic] .buofh1pr>ul li:first-child a.uo3d90p7,
-
-/*PP*/
-
-[role="navigation"]:not(.__fb-dark-mode [role="navigation"]):not(.__nn-msg [role="navigation"]) .wkznzc2l.rq0escxv
-/*Left Top*/
-
-,
-[role="navigation"]:not([role="banner"] [role="navigation"]) [aria-current="page"]
-/*Current*/
-
-{
-	background-color: var(--hosted-view-selected-state);
-}
-
-.__fb-dark-mode [role="navigation"]:not(.__nn-msg [role="navigation"]) .wkznzc2l.rq0escxv {
-	background-color: #111;
-}
-
-.__nn-fbm .__fb-dark-mode [role="banner"]+#ssrb_top_nav_end+div [role="navigation"] .wkznzc2l.rq0escxv {
-	background-color: #0000005C;
-}
-
-[role="navigation"] [data-visualcompletion=ignore-dynamic] .buofh1pr>ul li:first-child a.uo3d90p7 .q9uorilb {
-	border: 3px solid #FFF6;
-	border-radius: 100px;
-}
-
+/*  Messenger Support */
 .__nn-fbmain [role="navigation"] [data-visualcompletion=ignore-dynamic] .buofh1pr>ul li:first-child a.uo3d90p7 *,
 .__nn-fbmain [role="navigation"] [aria-current="page"] *,
 .__nn-fbm [role="navigation"] [aria-current="page"] * {
 	color: #fff;
-}
-
-[role="navigation"] [aria-current="page"] .knvmm38d:first-child * {
-	font-weight: bold;
-}
-
-
-/* Navigation Area - (Panel Bar Top) [Group / Individual Page / Option / Setting / Moderation]*/
-
-[role="navigation"]:not(.__nn-msg [role="navigation"]) .wkznzc2l.rq0escxv * {
-	color: #fff;
-}
-
-[role="navigation"] .wkznzc2l.rq0escxv a span {
-	color: inherit;
-}
-
-
-/* Navigation Area - (Notification counter) */
-
-[role="navigation"] span.b8zhkkm9 {
-	background-color: #F00;
-	border: 2px solid #fff;
-}
-
-[role="navigation"] span.b8zhkkm9 * {
-	color: #fff;
-}
-
-
-/* Navigation Area - Selected State (icon color filter) */
-
-[role="navigation"]:not(.__nn-msg [role="navigation"]) [aria-current="page"].i224opu6 svg,
-.__nn-fbm [role="navigation"] [aria-current="page"].i224opu6 svg.crt8y2ji {
-	fill: #ffffff;
-}
-
-[role="navigation"]:not(.__nn-msg [role="navigation"]) [aria-current="page"] i,
-[role="navigation"]:not(.__nn-msg [role="navigation"]) [aria-current="page"] img:not([aria-label="Chats"] img),
-.__nn-fbm [role="navigation"] [aria-current="page"] i,
-[role="navigation"] .wkznzc2l.rq0escxv i:not([role="navigation"] .wkznzc2l.rq0escxv .thwo4zme i) {
-	filter: invert(100%);
-}
-
-
-/* Friend Request Page & * */
-
-[role="navigation"]:not(.__nn-msg [role="navigation"]) .aov4n071>.n851cfcs [aria-current="page"].i224opu6 img,
-[role="navigation"] [aria-current="page"].i224opu6 image {
-	filter: unset;
-}
-
-[role="navigation"] [aria-current="page"].i224opu6 .s1i5eluu {
-	background-color: #090e35;
-}
-
-[role="navigation"] [aria-current="page"].i224opu6 .tdjehn4e {
-	background-color: #fff;
-}
-
-[role="navigation"] [aria-current="page"].i224opu6 .tdjehn4e .g0qnabr5 {
-	color: var(--hosted-view-selected-state);
 }
