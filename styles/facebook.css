@@ -36,6 +36,13 @@
 }
 
 
+/* Top Bar */
+body:not(.__nn-msg),
+.__nn-fbmsg {
+    --header-height: 48px;
+}
+
+
 /*  Top Bar - Left Logo */
 [role="banner"] [aria-label="Facebook"][href="/"][role="link"]>svg {
 	height: 34px;
