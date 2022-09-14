@@ -78,39 +78,51 @@ body:not(.__nn-msg),
 
 /*  Top Bar - Right */
 [role="navigation"][aria-label="Account Controls and Settings"] [role="button"]:not([tabindex="-1"]),
-[role="navigation"][aria-label="Account Controls and Settings"] [role="link"] {
+[role="navigation"][aria-label="Account controls and settings"] [role="button"]:not([tabindex="-1"]),
+[role="navigation"][aria-label="Account Controls and Settings"] [role="link"],
+[role="navigation"][aria-label="Account controls and settings"] [role="link"] {
 	width: 28px;
 	height: 28px;
 }
 
 /*  Top Bar - Right - Icon Size */
-[role="navigation"][aria-label="Account Controls and Settings"] [aria-label="Menu"] svg {
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label="Menu"] svg,
+[role="navigation"][aria-label="Account controls and settings"] [aria-label="Menu"] svg {
 	transform: scale(0.7);
 }
 
-[role="navigation"][aria-label="Account Controls and Settings"] [aria-label="Menu"] svg.d1w2l3lo {
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label="Menu"] svg.d1w2l3lo,
+[role="navigation"][aria-label="Account controls and settings"] [aria-label="Menu"] svg.d1w2l3lo {
 	transform: scale(0.85);
 }
 
 [role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Messenger"] svg,
-[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Notifications"] svg {
+[role="navigation"][aria-label="Account controls and settings"] [aria-label^="Messenger"] svg,
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Notifications"] svg,
+[role="navigation"][aria-label="Account controls and settings"] [aria-label^="Notifications"] svg {
 	transform: scale(0.8);
 }
 
 [role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Messenger"] svg.d1w2l3lo,
-[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Notifications"] svg.d1w2l3lo {
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Messenger"] svg.d1w2l3lo,
+[role="navigation"][aria-label="Account controls and settings"] [aria-label^="Notifications"] svg.d1w2l3lo,
+[role="navigation"][aria-label="Account controls and settings"] [aria-label^="Notifications"] svg.d1w2l3lo {
 	transform: scale(0.95);
 }
 
 /*  Top Bar - Right - Profile Picture */
 [role="navigation"][aria-label="Account Controls and Settings"]>span:first-child [role="button"],
 [role="navigation"][aria-label="Account Controls and Settings"] svg[aria-label="Your profile"],
-[role="navigation"][aria-label="Account Controls and Settings"] svg[aria-label="Your profile"] image {
+[role="navigation"][aria-label="Account Controls and Settings"] svg[aria-label="Your profile"] image,
+[role="navigation"][aria-label="Account controls and settings"]>span:first-child [role="button"],
+[role="navigation"][aria-label="Account controls and settings"] svg[aria-label="Your profile"],
+[role="navigation"][aria-label="Account controls and settings"] svg[aria-label="Your profile"] image {
 	width: 32px !important;
 	height: 32px !important;
 }
 
-[role="navigation"][aria-label="Account Controls and Settings"] svg[aria-label="Your profile"] mask circle {
+[role="navigation"][aria-label="Account Controls and Settings"] svg[aria-label="Your profile"] mask circle,
+[role="navigation"][aria-label="Account controls and settings"] svg[aria-label="Your profile"] mask circle {
 	cx: 16;
 	cy: 16;
 	r: 16;
@@ -118,18 +130,23 @@ body:not(.__nn-msg),
 
 /*  Top Bar - Right - NNotification Counter */
 [role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Notifications"][tabindex="-1"],
-[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Messenger"][tabindex="-1"] {
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Messenger"][tabindex="-1"],
+[role="navigation"][aria-label="Account controls and settings"] [aria-label^="Notifications"][tabindex="-1"],
+[role="navigation"][aria-label="Account controls and settings"] [aria-label^="Messenger"][tabindex="-1"] {
 	left: 16px;
 }
 
 [role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Notifications"][tabindex="-1"]>span,
-[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Messenger"][tabindex="-1"] div>span {
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Messenger"][tabindex="-1"] div>span, 
+[role="navigation"][aria-label="Account Controls and Settings"] [aria-label^="Notifications"][tabindex="-1"]>span,
+[role="navigation"][aria-label="Account controls and settings"] [aria-label^="Messenger"][tabindex="-1"] div>span {
 	height: 16px;
 	min-width: 16px;
 }
 
 /* Top Bar - Right - Profile Picture */
-[role="navigation"][aria-label="Account Controls and Settings"]>span:first-child span[data-visualcompletion="ignore"] {
+[role="navigation"][aria-label="Account controls and settings"]>span:first-child span[data-visualcompletion="ignore"]
+[role="navigation"][aria-label="Account controls and settings"]>span:first-child span[data-visualcompletion="ignore"] {
 	margin-right: -5px;
 	margin-top: -10px;
 	transform: scale(0.9);
