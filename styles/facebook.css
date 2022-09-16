@@ -207,7 +207,6 @@ body:not(.__nn-msg),
 
 /*  Messenger Support */
 .__nn-fbmain [role="navigation"] [data-visualcompletion=ignore-dynamic] .buofh1pr>ul li:first-child a.uo3d90p7 *,
-.__nn-fbmain [role="navigation"] [aria-current="page"] *,
 .__nn-fbm [role="navigation"] [aria-current="page"] * {
 	color: #fff;
 }
