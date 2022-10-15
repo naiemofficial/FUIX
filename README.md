@@ -37,7 +37,7 @@ A browser extension for updating social media UI (eg: Facebook, Messenger, Insta
 			<td align="center"><a target="_blank" href="https://addons.mozilla.org/firefox/addon/fuix"><sub><sup>Add to Firefox</sup></sub></a></td>
 			<td align="center"><a target="_blank" href="#"><sub><sup>N/A</sup></sub></a></td>
 			<td align="center"><a target="_blank" href="https://microsoftedge.microsoft.com/addons/detail/bdhpdhjjecmpiiojcibkojchmegkgeco"><sub><sup>Add to Microsoft Edge</sup></sub></a></td>
-			<td align="center"><a target="_blank" href="#"><sub><sup>N/A</sup></sub></a></td>
+			<td align="center"><a target="_blank" href="https://addons.opera.com/en/extensions/details/fuix"><sub><sup>Add to Opera</sup></sub></a></td>
 		</tr>
 	</tbody>
 </table>
@@ -137,7 +137,7 @@ Then click on the <img src="https://user-images.githubusercontent.com/34242279/1
 						&nbsp;
 						&nbsp;
 						&nbsp;
-						<a target="_blank" href="#"><img height="28px" src="https://user-images.githubusercontent.com/34242279/128738587-612150d0-c20c-4130-83f9-1601ea9ce65e.png" alt="Opera"/></a>	
+						<a target="_blank" href="https://addons.opera.com/en/extensions/details/fuix"><img height="28px" src="https://user-images.githubusercontent.com/34242279/128738587-612150d0-c20c-4130-83f9-1601ea9ce65e.png" alt="Opera"/></a>	
 					</li>
 				</ul>
 			</td>
