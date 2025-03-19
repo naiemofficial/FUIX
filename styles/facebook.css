@@ -135,15 +135,15 @@ body:not(.__nn-msg),
 
 [role="navigation"][aria-label="Account Controls and Settings"] svg[aria-label="Your profile"] mask circle:not([data-visualcompletion=ignore]),
 [role="navigation"][aria-label="Account controls and settings"] svg[aria-label="Your profile"] mask circle:not([data-visualcompletion=ignore]) {
-    cx: 16;
-    cy: 16;
-    r: 16;
+    cx: 14;
+    cy: 14;
+    r: 14;
 }
 
 [role="navigation"][aria-label="Account Controls and Settings"] svg[aria-label="Your profile"] mask circle[data-visualcompletion=ignore],
 [role="navigation"][aria-label="Account controls and settings"] svg[aria-label="Your profile"] mask circle[data-visualcompletion=ignore] {
-    cx: 26;
-    cy: 26;
+    cx: 23;
+    cy: 23;
 }
 
 /*  Top Bar - Right - NNotification Counter */
