@@ -142,8 +142,8 @@ body:not(.__nn-msg),
 
 [role="navigation"][aria-label="Account Controls and Settings"] svg[aria-label="Your profile"] mask circle[data-visualcompletion=ignore],
 [role="navigation"][aria-label="Account controls and settings"] svg[aria-label="Your profile"] mask circle[data-visualcompletion=ignore] {
-    cx: 23;
-    cy: 23;
+    cx: 26;
+    cy: 26;
 }
 
 /*  Top Bar - Right - NNotification Counter */
